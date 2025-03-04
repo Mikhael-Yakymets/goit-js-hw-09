@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>2-Form</title>
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <load src="./partials/back-link.html" />
+    </div>
+
+    <div class="container">
+      <form class="feedback-form" autocomplete="off">
+        <label class="feedback-form-label">
+          Email
+          <input
+            class="feedback-form-email"
+            type="email"
+            name="email"
+            autofocus
+          />
+        </label>
+        <label class="feedback-form-label">
+          Message
+          <textarea class="text-input" name="message" rows="8"></textarea>
+        </label>
+        <button class="login-form-label-btn" type="submit">Submit</button>
+      </form>
+    </div>
+    <script type="module" src="./js/2-form.js"></script>
+  </body>
+</html>
